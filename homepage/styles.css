@@ -1,0 +1,217 @@
+/* background picture*/
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+    /* the image used */
+    background-image: url("homeimage.jpeg");
+
+    /* full height */
+    height: 100%;
+
+    /* center and scale image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home {
+    /* center h1 headline */
+    text-align: center;
+
+    /* choose h1 color */
+    color: white;
+
+    /* make shadow */
+    text-shadow: 2px 2px black;
+
+    /* font of title */
+    font-family: 'Great Vibes', cursive;
+}
+
+/* font for the navbar */
+.navbar a {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* menu columns and rows */
+.menu {
+    box-sizing: border-box;
+  }
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* center the menu item names */
+.row {
+  text-align: center
+}
+menu {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* center the menu item names */
+.row2 {
+    text-align: center
+}
+
+/* center the menu item names */
+.row4 {
+  text-align: center
+}
+
+/* center the menu title and subtitles */
+h1 {
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 2px 2px black;
+  color: gold;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  background-color: white;
+  color: red;
+  text-align: center;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.menu {
+    /* the image used */
+    background-image: url("menuimage.jpeg");
+
+    /* full height */
+    height: 100%;
+
+    /* center and scale image */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+
+table {
+  border-collapse: collapse;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+tr:nth-child(odd) {
+  background-color: brown;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.table {
+  /* the image used */
+  background-image: url("menuimage.jpeg");
+
+  /* full height */
+  height: 100%;
+
+  /* center and scale image */
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.map {
+  text-align: center
+}
+
+.lpics {
+  box-sizing: border-box;
+}
+
+.thebus {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.thetrain::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.m {
+  text-align: center
+}
+
+.location {
+  /* the image used */
+  background-image: url("locationimg.jpeg");
+
+  /* full height */
+  height: 100%;
+
+  /* center and scale image */
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.lpics {
+  /* the image used */
+  background-image: url("locationimg.jpeg");
+
+  /* full height */
+  height: 100vh;
+
+  /* center and scale image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+mark {
+  background-color: white;
+  color: red;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
