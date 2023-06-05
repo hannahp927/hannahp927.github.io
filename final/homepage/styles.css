@@ -1,0 +1,1182 @@
+/* INDEX */
+  /* background picture*/
+  body, html {
+      height: 100%;
+      margin: 0;
+    }
+    .bg {
+        /* the image used */
+        background-image: url("underwater.jpeg");
+
+        /* full height */
+        height: 100%;
+
+        /* center and scale image */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    img {
+      padding-left: 6px;
+      padding-right: 6px;
+    }
+
+  /* clown fish dropdown */
+    .clown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .clown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .clown:hover .clown-content {
+      display: block;
+    }
+
+    .clo {
+      padding: 15px;
+      text-align: center;
+    }
+  /* clownfish animation */
+    .clown {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      animation-name: clown;
+      animation-duration: 8s;
+    }
+
+    @keyframes clown {
+      0%   {left:0px; top:0px;}
+      25%  {left:200px; top:0px;}
+      50%  {left:200px; top:200px;}
+      75%  {left:0px; top:200px;}
+      100% {left:0px; top:0px;}
+    }
+
+  /* scorpion fish dropdown */
+    .scorpion {
+      position: relative;
+      display: inline-block;
+    }
+
+    .scorpion-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .scorpion:hover .scorpion-content {
+      display: block;
+    }
+
+    .sco {
+      padding: 15px;
+      text-align: center;
+    }
+
+  /* scorpion fish animation */
+    .scorpion {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      animation-name: scorpion;
+      animation-duration: 8s;
+    }
+
+    @keyframes scorpion {
+      0%   {left:0px; top:0px;}
+      25%  {left:200px; top:0px;}
+      50%  {left:200px; top:200px;}
+      75%  {left:0px; top:200px;}
+      100% {left:0px; top:0px;}
+    }
+
+    /* leafy sea dragon dropdown */
+   .leafy {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .leafy-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .leafy:hover .leafy-content {
+    display: block;
+  }
+
+
+  .lea {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* leafy sea dragon animation */
+  .leafy {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: leafy;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes leafy {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* box fish dropdown */
+  .box {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .box-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .box:hover .box-content {
+    display: block;
+  }
+
+
+  .bo {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* box fish animation */
+  .box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: box;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes box {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* frog fish dropdown */
+  .frog {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .frog-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .frog:hover .frog-content {
+    display: block;
+  }
+
+
+  .fro {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* frog fish animation */
+  .frog {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: frog;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes frog {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* sun fish dropdown */
+  .sun {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .sun-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .sun:hover .sun-content {
+    display: block;
+  }
+
+
+  .su {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* sun fish animation */
+  .sun {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: sun;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes sun {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* gold fish dropdown */
+  .gold {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .gold-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .gold:hover .gold-content {
+    display: block;
+  }
+
+
+  .gol {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* gold fish animation */
+  .gold {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: gold;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes gold {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* gold fish 2 dropdown */
+  .gold2 {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .gold2-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .gold2:hover .gold2-content {
+    display: block;
+  }
+
+
+  .gol2 {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* gold fish 2 animation */
+  .gold2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: gold2;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes gold2 {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* dwarf gourami  dropdown */
+  .dwarf {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .dwarf-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .dwarf:hover .dwarf-content {
+    display: block;
+  }
+
+
+  .dwa {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* dwarf gourami animation */
+  .dwarf {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: dwarf;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes dwarf {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* angel fish dropdown */
+  .angel {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .angel-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .angel:hover .angel-content {
+    display: block;
+  }
+
+
+  .ang {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* angel fish animation */
+  .angel {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: angel;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes angel {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* lion fish dropdown */
+  .lion {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .lion-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .lion:hover .lion-content {
+    display: block;
+  }
+
+
+  .lio {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* lion fish animation */
+  .lion {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: lion;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes lion {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* angler fish dropdown */
+  .angler {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .angler-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .angler:hover .angler-content {
+    display: block;
+  }
+
+
+  .ang {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* angler fish animation */
+  .angler {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: angler;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes angler {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* butterfly fish dropdown */
+  .butterfly {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .butterfly-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .butterfly:hover .butterfly-content {
+    display: block;
+  }
+
+
+  .but {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* butterfly fish animation */
+  .butterfly {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: butterfly;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes butterfly {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* clam dropdown */
+  .clam {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .clam-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .clam:hover .clam-content {
+    display: block;
+  }
+
+
+  .cl {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* clam animation */
+  .clam {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: clam;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes clam {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* cory catfish dropdown */
+  .cory {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .cory-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .cory:hover .cory-content {
+    display: block;
+  }
+
+
+  .cor {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* cory catfish animation */
+  .cory {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: cory;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes cory {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* damsel fish dropdown */
+  .damsel {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .damsel-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .damsel:hover .damsel-content {
+    display: block;
+  }
+
+
+  .dam {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* damsel fish animation */
+  .damsel {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: damsel;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes damsel {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* elephant fish dropdown */
+  .elephant {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .elephant-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .elephant:hover .elephant-content {
+    display: block;
+  }
+
+
+  .ele {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* elephant fish animation */
+  .elephant {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: elephant;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes elephant {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* beta fish dropdown */
+  .beta {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .beta-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .beta:hover .beta-content {
+    display: block;
+  }
+
+
+  .bet {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* beta fish animation */
+  .beta {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: beta;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes beta {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* flounder fish dropdown */
+  .flounder {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .flounder-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .flounder:hover .flounder-content {
+    display: block;
+  }
+
+
+  .flo {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* flounder fish animation */
+  .flounder {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: flounder;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes flounder {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* glass squid dropdown */
+  .glass {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .glass-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .glass:hover .glass-content {
+    display: block;
+  }
+
+
+  .gla {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* glass animation */
+  .glass {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: glass;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes glass {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* koi fish dropdown */
+  .koi {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .koi-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .koi:hover .koi-content {
+    display: block;
+  }
+
+
+  .ko {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* koi fish animation */
+  .koi {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: koi;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes koi {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* pollock fish dropdown */
+  .pollock {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .pollock-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .pollock:hover .pollock-content {
+    display: block;
+  }
+
+
+  .pol {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* pollock fish animation */
+  .pollock {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: pollock;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes pollock {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* handsome squidward dropdown */
+  .squidward {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .squidward-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .squidward:hover .squidward-content {
+    display: block;
+  }
+
+
+  .squ {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* handsome squidward animation */
+  .squidward {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: squidward;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes squidward {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  /* marlin fish dropdown */
+  .marlin {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .marlin-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+
+  .marlin:hover .marlin-content {
+    display: block;
+  }
+
+
+  .mar {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* marlin fish animation */
+  .marlin {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: marlin;
+    animation-duration: 8s;
+  }
+
+
+  @keyframes marlin {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+h1 {
+  text-shadow: 2px 2px black;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Cherry Bomb One', cursive;
+}
+
+input[type="text"] {
+  line-height: 1.8;
+  width: 25%;
+}
+
+input[type="text"]:hover {
+  background-color: #f5f5f5;
+  transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+.feedback1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Macondo', cursive;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 340px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Macondo', cursive;
+}
+
+h3 {
+  text-shadow: 2px 2px black;
+  color: white;
+  text-align: center;
+  font-family: 'Macondo', cursive;
+}
+
+.navbar a {
+  font-family: 'Macondo', cursive;
+  font-size: 20px
+}
